@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   font-size: 13px;
@@ -21,6 +25,10 @@ body {
   color: #515076;
 }
 
+.description {
+  margin-top: 15px;
+  margin-right: 256px;
+}
 .description, .compound {
   color: #515076;
   font-size: 13px;
@@ -64,4 +72,13 @@ li ul li {
     color: #515076;
   font-size: 13px;
   line-height: 18px;
+}
+
+.cardone {
+  background-color: #f4eaff;
+  width: 340px;
+  img {
+  width: 290px;
+  padding: 25px;
+  }
 }
