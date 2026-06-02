@@ -6,6 +6,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  color: #515076;
 }
 
 .product-list {
@@ -22,7 +23,6 @@ body {
   line-height: 78px;
   margin: 0;
   text-align: center;
-  color: #515076;
 }
 
 .description {
@@ -30,17 +30,15 @@ body {
   margin-right: 256px;
 }
 .description, .compound {
-  color: #515076;
   font-size: 13px;
   line-height: 18px;
 }
 
 
 .price {
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-color: #515076;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .numbers {
@@ -49,27 +47,20 @@ color: #515076;
   line-height: 24px;
   width: 70px;
   height: 24px;
-  color: #515076;
-
 }
 
 .normal {
-color: #A5A3B9;
-font-size: 12px;
-line-height: 24px;
-letter-spacing: 0;
-border-left-width: 400;
+  color: #A5A3B9;
 }
 
 .name {
-  color: #515076;
+
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
 }
 
-li ul li {
-    color: #515076;
+.naturals {
   font-size: 13px;
   line-height: 18px;
 }
