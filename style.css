@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  width: 846;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 78px;
+  margin: 0;
+  text-align: center;
+}
+
+.description {
+  margin-top: 15px;
+  margin-right: 256px;
+}
+.description, .compound {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+.price {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.numbers {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 70px;
+  height: 24px;
+}
+
+.normal {
+  color: #A5A3B9;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.naturals {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.cardone {
+  background-color: #f4eaff;
+  width: 340px;
+  padding: 25px;
+  img {
+    width: 290px;
+  }
+}
