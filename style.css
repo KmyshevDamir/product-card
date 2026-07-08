@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.product-list {
+.products {
   display: flex;
   flex-wrap: wrap;
   gap: 45px;
@@ -33,11 +33,11 @@ body {
   text-align: center;
 }
 
-.description {
+.compound__name {
   margin-top: 15px;
 }
 
-.description, .compound {
+.compound__name, .card__description {
   font-size: 13px;
   line-height: 18px;
 }
@@ -56,13 +56,13 @@ body {
   height: 24px;
 }
 
-.cost {
+.card__price {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
 }
 
-.normal {
+.card__purpose {
   color: #A5A3B9;
   font-size: 12px;
   margin-top: 0px;
@@ -71,7 +71,7 @@ body {
   display: inline-block;
 }
 
-.name {
+.card__name {
   font-size: 20px;
   font-weight: 700;
   line-height: 27px;
@@ -82,13 +82,13 @@ body {
   line-height: 18px;
 }
 
-.cardone {
+.products__item {
   display: inline-block;
   background-color: #f8f2ff;
   width: 340px;
   padding: 25px;
 }
 
-.cardone img {
+.products__item img {
     width: 290px;
   }
