@@ -42,24 +42,14 @@ body {
   line-height: 18px;
 }
 
-.price {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-}
-
-.numbers {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  width: 80px;
-  height: 24px;
-}
 
 .card__price {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .card__purpose {
@@ -77,18 +67,17 @@ body {
   line-height: 27px;
 }
 
-.naturals {
+.compound__item {
   font-size: 13px;
   line-height: 18px;
 }
 
-.products__item {
-  display: inline-block;
+.card {
   background-color: #f8f2ff;
   width: 340px;
   padding: 25px;
 }
 
-.products__item img {
-    width: 290px;
-  }
+.card img {
+  width: 290px;
+}
