@@ -7,22 +7,16 @@ changeColorAllCardsButton.addEventListener('click', () => {
   productCards.forEach((card) => card.style.backgroundColor = greenColorHash)
 })
 
-
-
 // одна карточка
-
 
 const firstProductCard = document.querySelector('.products__item')
 const changeColorFirstCardButton = document.querySelector('#change-color-first-card')
 
-changeColorFirstCardButton.addEventListener('click', () => 
-  firstProductCard.style.backgroundColor = blueColorHash);
-
-
+changeColorFirstCardButton.addEventListener('click', () => {
+  firstProductCard.style.backgroundColor = blueColorHash;
+});
 
 // google
-
-
 
 const openGoogleButton = document.querySelector('#open-google');
 
@@ -38,9 +32,6 @@ function openGoogle() {
   }
 }
 
-
-
-
 // Вывод console.log
 
 const outputLogButton = document.querySelector('#output-console-log');
@@ -54,8 +45,7 @@ function outputConsoleLog(message) {
   console.log(message);
 }
 
-
-
+// наведение на тайтл
 
 const title = document.querySelector('.title');
 
@@ -63,10 +53,7 @@ title.addEventListener('mouseover', () => {
   console.log(title.textContent);
 });
 
-
-
-
-
+// Смена цвета кнопки
 
 const changeButtonColor = document.querySelector('#change-button-color');
 
