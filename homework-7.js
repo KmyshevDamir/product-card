@@ -34,8 +34,6 @@ function buyProduct(budget) {
 
 buyProduct(2150)
 
-
-
 function sayHello(name) {
   console.log("Привет, " + name);
 }
